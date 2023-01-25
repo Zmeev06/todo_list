@@ -1,0 +1,89 @@
+.header__title {
+  font-family: Monseratt;
+  font-size: 96px;
+  color: #E13E3E;
+  text-shadow: 10px 4px 8px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+  width: 544px;
+}
+.header__select {
+  display: block;
+  margin: 0 auto;
+  font-size: 48px;
+  width: 370px;
+  font-family: Monseratt;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.body__input {
+  display: flex;
+  width: 1240px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.body__num {
+  width: 55px;
+  height: 55px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 12px;
+  background-color: #d9d9d9;
+  border: #000 1px solid;
+  border-radius: 10px;
+}
+.body__inputform {
+  display: block;
+  background-color: #d9d9d9;
+  border: #000 1px solid;
+  border-radius: 10px;
+  width: 1120px;
+  padding-left: 10px;
+  font-size: 24px;
+}
+.body__check {
+  display: block;
+  background-color: #d9d9d9;
+  border: #000 1px solid;
+  border-radius: 10px;
+  width: 55px;
+  height: 55px;
+}
+.body__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1240px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.body__btn {
+  display: block;
+  width: 300px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border: #000 1px solid;
+  border-radius: 10px;
+  font-size: 24px;
+  font-family: Monseratt;
+  font-weight: bold;
+}
+.body__inputtwo {
+  display: none;
+}
+.body__inputthree {
+  display: none;
+}
+.body__inputfour {
+  display: none;
+}
+.body__inputfive {
+  display: none;
+}
+.body__inputsix {
+  display: none;
+}

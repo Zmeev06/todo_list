@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__title">TO DO LIST</h1>
+        <label for="header-select">
+          <select name="select" id="header-select" class="header__select">
+            <option value="monday" class="header__option" selected>
+              Понедельник
+            </option>
+            <option value="tuesday" class="header__option">Вторник</option>
+            <option value="wednesday" class="header__option">Среда</option>
+            <option value="thursday" class="header__option">Четверг</option>
+            <option value="friday" class="header__option">Пятница</option>
+            <option value="saturday" class="header__option">Суббота</option>
+            <option value="sunday" class="header__option">Воскресенье</option>
+          </select>
+        </label>
+      </div>
+    </header>
+    <div class="body">
+      <div class="body__content">
+        <div class="body__inputs">
+          <label for="body__check">
+            <div class="body__input body__inputone">
+              <p class="body__num num__one">1</p>
+              <input
+                type="text"
+                class="body__inputform input__one"
+                placeholder="Задача на день"
+                maxlength="140"
+              />
+              <input type="checkbox" name="body__check" class="body__check body__checkone" />
+            </div>
+            <div class="body__input body__inputtwo">
+              <p class="body__num num__two">2</p>
+              <input
+                type="text"
+                class="body__inputform input__two"
+                placeholder="Задача на день"
+                maxlength="140"
+              />
+              <input type="checkbox" name="body__check" class="body__check body__checktwo"/>
+            </div>
+            <div class="body__input body__inputthree">
+              <p class="body__num num__three">3</p>
+              <input
+                type="text"
+                class="body__inputform input__three"
+                placeholder="Задача на день"
+                maxlength="140"
+              />
+              <input type="checkbox" name="body__check" class="body__check body__checkthree"/>
+            </div>
+            <div class="body__input body__inputfour">
+              <p class="body__num num__four">4</p>
+              <input
+                type="text"
+                class="body__inputform input__four"
+                placeholder="Задача на день"
+                maxlength="140"
+              />
+              <input type="checkbox" name="body__check" class="body__check body__checkfour"/>
+            </div>
+            <div class="body__input body__inputfive">
+              <p class="body__num num__five">5</p>
+              <input
+                type="text"
+                class="body__inputform input__five"
+                placeholder="Задача на день"
+                maxlength="140"
+              />
+              <input type="checkbox" name="body__check" class="body__check body__checkfive"/>
+            </div>
+            <div class="body__input body__inputsix">
+              <p class="body__num num__six">6</p>
+              <input
+                type="text"
+                class="body__inputform input__six"
+                placeholder="Задача на день"
+                maxlength="140"
+              />
+              <input type="checkbox" name="body__check" class="body__check body__checksix"/>
+            </div>
+          </label>
+        </div>
+        <div class="body__buttons">
+          <button class="body__btn btn__add" id="btn__add" type="button">Добавить</button>
+          <button class="body__btn btn__delete" type="button">Удалить</button>
+          <button class="body__btn btn__comp" type="button">Выполнено</button>
+          <button class="body__btn btn__save" type="button">Сохранить</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
